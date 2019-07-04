@@ -6,6 +6,7 @@ const routes: Routes = [
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
   { path: 'sqlsavedata', loadChildren: './pages/sqlsavedata/sqlsavedata.module#SqlsavedataPageModule' },
   { path: 'chart', loadChildren: './pages/chart/chart.module#ChartPageModule' },
+  { path: 'camera-use', loadChildren: './pages/camera-use/camera-use.module#CameraUsePageModule' },
 ];
 
 @NgModule({

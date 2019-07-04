@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { CameraUsePage } from '../pages/camera-use/camera-use.page';
 
 import { HomePage } from './home.page';
 import { SqlsavedataPage } from '../pages/sqlsavedata/sqlsavedata.page';
@@ -20,6 +21,6 @@ import { ChartPage } from '../pages/chart/chart.page';
       }
     ])
   ],
-  declarations: [HomePage, SqlsavedataPage, ChartPage]
+  declarations: [HomePage, SqlsavedataPage, ChartPage, CameraUsePage]
 })
 export class HomePageModule {}
