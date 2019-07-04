@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
 import { SqlsavedataPage } from '../pages/sqlsavedata/sqlsavedata.page';
+import { ChartPage } from '../pages/chart/chart.page';
 
 @NgModule({
   imports: [
@@ -19,6 +20,6 @@ import { SqlsavedataPage } from '../pages/sqlsavedata/sqlsavedata.page';
       }
     ])
   ],
-  declarations: [HomePage, SqlsavedataPage]
+  declarations: [HomePage, SqlsavedataPage, ChartPage]
 })
 export class HomePageModule {}
